@@ -1,0 +1,163 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@font-face {
+	font-family: 'codropsicons';
+	src: url('../fonts/codropsicons/codropsicons.eot');
+	src: url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'), url('../fonts/codropsicons/codropsicons.woff') format('woff'), url('../fonts/codropsicons/codropsicons.ttf') format('truetype'), url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Shadows Into Light', cursive;
+	background-color: #330000;
+	margin: 0;
+	padding: 0;
+	height: 100vh
+}
+
+.site-wrapper {
+	display: flex;
+	flex-grow: 1;
+	margin: 20pt;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+header {
+	flex: 0 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-basis: auto;
+	align-items: center;
+	margin: 20pt;
+}
+
+.main-content {
+	flex: 1 0 auto;
+}
+
+footer {
+	flex: 1 0 auto;
+	background-color: #1D0000;
+	height: 10vh;
+}
+
+.footer-copyright {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-align: center;
+}
+
+logo {
+	display: flex;
+	justify-content: left;
+	color: white;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 45px;
+	line-height: normal;
+}
+
+contact {
+	display: flex;
+	justify-content: right;
+	color: white;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: normal;
+}
+
+team {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+	color: white;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+aside {
+	display: flex;
+	flex: 1 1 auto;
+	margin-top: 55px;
+	background: #f0f0f0;
+	width: 200pt;
+	float: right;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+/* MEMBERS CSS */
+
+members-container {
+	padding-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+}
+
+member {
+	margin: 5pt;
+	display: flex;
+	min-width: 350px;
+	min-height: 200px;
+	border-radius: 20px;
+	background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.member-overlay {
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	height: 100%;
+	border-radius: inherit;
+}
+
+.member-body {
+	color: white;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 45px;
+	line-height: normal;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 10px;
+	text-align: center;
+}
+
+twitter-block {
+	display: flex;
+}
+
+/* LINK STYLE */
+
+a {
+	color: lightGray;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: darkGray;
+}
+
+a:focus {
+	color: white;
+}
+
+a:hover {
+	color: white
+}
+
+a:active {
+	color: white
+}
